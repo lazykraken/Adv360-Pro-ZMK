@@ -80,7 +80,7 @@
 
         layer_NAVIGATION {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans    &trans  &trans    &trans  &trans  &trans
+  &none   &none   &none   &none  &trans  &trans            &trans                                                  &trans    &trans    &trans  &trans    &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans    &trans    &trans  &trans    &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp DOWN  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                    &trans    &trans  &trans    &trans  &trans  &trans
@@ -90,11 +90,11 @@
 
         layer_SYMBOLS {
             bindings = <
- &trans          &trans           &trans                &trans                 &trans     &trans                      &trans                                                  &trans  &trans           &trans  &trans  &trans  &trans  &trans
- &trans     &kp PERCENT    &kp AMPERSAND      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp ASTRK                      &trans                                                  &trans  &trans           &trans  &trans  &trans  &trans  &trans
- &trans        &kp HASH       &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp PLUS                      &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp RIGHT_SHIFT  &trans  &trans  &trans  &trans
- &trans  &kp UNDERSCORE  &kp EXCLAMATION        &kp LEFT_BRACE        &kp RIGHT_BRACE   &kp PIPE                                      &trans                  &trans                  &trans           &trans  &trans  &trans  &trans  &trans
- &trans          &trans           &trans                &trans                 &trans                       &kp SINGLE_QUOTE  &kp AT  &trans                  &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans
+ &trans          &trans           &trans                &trans                 &trans     &trans                      &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans     &kp PERCENT    &kp AMPERSAND      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp ASTRK                      &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans        &kp HASH       &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp PLUS                      &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp UNDERSCORE  &kp EXCLAMATION        &kp LEFT_BRACE        &kp RIGHT_BRACE   &kp PIPE                                      &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans          &trans           &trans                &trans                 &trans                       &kp SINGLE_QUOTE  &kp AT  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
