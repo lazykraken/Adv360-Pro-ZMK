@@ -8,7 +8,8 @@
     "fn",
     "mod",
     "navigation",
-    "symbols"
+    "symbols",
+    "numbers"
   ],
   "layers": [
     [
@@ -16,7 +17,7 @@
          "&kp TAB",     "&kp Q",    "&kp W",       "&kp F",       "&kp P",  "&kp G",                "&none",                                                                              "&none",  "&kp J",       "&kp L",       "&kp U",    "&kp Y", "&kp SEMICOLON",  "&kp BSLH",
          "&kp ESC",     "&kp A",    "&kp R", "&hm LCTRL S", "&hm LSHFT T",  "&kp D",                "&none", "&kp LCTRL", "&kp LALT",                      "&kp LGUI", "&kp RCTRL",       "&none",  "&kp H", "&mt RSHFT N", "&hm RCTRL E",    "&kp I",         "&kp O",   "&kp SQT",
        "&kp LSHFT",     "&kp Z",    "&kp X",       "&kp C",       "&kp V",  "&kp B",                                      "&kp HOME",                     "&kp PG_UP",                              "&kp K",       "&kp M",   "&kp COMMA",  "&kp DOT",      "&kp FSLH", "&kp RSHFT",
-           "&mo 2", "&kp GRAVE", "&kp CAPS",    "&kp LEFT",   "&kp RIGHT",                     "&mt 4 BSPC",   "&kp DEL",  "&kp END",                     "&kp PG_DN",   "&kp TAB", "&mt 5 SPACE",                "&kp UP",    "&kp DOWN", "&kp LBKT",      "&kp RBKT",     "&mo 2"
+           "&mo 2", "&kp GRAVE", "&kp CAPS",    "&kp LEFT",   "&kp RIGHT",                     "&mt 4 BSPC",   "&kp DEL",  "&kp END",                     "&kp PG_DN", "&mt 6 TAB", "&mt 5 SPACE",                "&kp UP",    "&kp DOWN", "&kp LBKT",      "&kp RBKT",     "&mo 2"
     ], [
        "&kp EQUAL",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",             "&trans",                                                                            "&mo 3", "&kp N6", "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY", "&kp MINUS",
          "&kp TAB",     "&kp Q",    "&kp W",    "&kp E",     "&kp R",  "&kp T",              "&none",                                                                            "&none",  "&kp Y",  "&kp KP_N7",    "&kp KP_N8",     "&kp KP_N9",    "&kp KP_MINUS",  "&kp BSLH",
@@ -47,6 +48,12 @@
         "&none",       "&kp HASH",      "&kp DOLLAR", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS",  "&kp PLUS",                      "&none", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
         "&none", "&kp UNDERSCORE", "&kp EXCLAMATION",       "&kp LEFT_BRACE",       "&kp RIGHT_BRACE",  "&kp PIPE",                                         "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
         "&none",          "&none",           "&none",                "&none",                 "&none",                        "&kp SINGLE_QUOTE", "&kp AT", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ], [
+        "&none",     "&none",  "&none",  "&none",  "&none",     "&none",               "&none",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+        "&none",     "&none", "&kp N7", "&kp N8", "&kp N9",     "&none",               "&none",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+        "&none",     "&none", "&kp N4", "&kp N5", "&kp N6", "&kp EQUAL",               "&none",  "&none",  "&none",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+        "&none", "&kp GRAVE", "&kp N1", "&kp N2", "&kp N3",  "&kp BSLH",                                   "&none",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+        "&none",     "&none",  "&none",  "&none",  "&none",                        "&kp MINUS", "&kp N0",  "&none",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
