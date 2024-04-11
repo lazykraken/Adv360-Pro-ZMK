@@ -80,11 +80,11 @@
 
         layer_navigation {
             bindings = <
-  &none   &none   &none   &none  &trans  &trans            &trans                                                   &none     &none     &none   &none     &none   &none   &none
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                   &none     &none     &none   &none     &none   &none   &none
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                   &none   &none   &none  &kp LEFT  &kp DOWN  &kp UP  &kp DOWN   &none   &none
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                   &none                     &none     &none   &none     &none   &none   &none
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                   &none   &none   &none               &none   &none     &none   &none   &none
+  &none   &none   &none   &none  &trans  &trans            &trans                                                   &none     &none     &none   &none      &none   &none   &none
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                   &none     &none     &none   &none      &none   &none   &none
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                   &none   &none   &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &none   &none
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                   &none                     &none     &none   &none      &none   &none   &none
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                   &none   &none   &none               &none   &none      &none   &none   &none
             >;
         };
 
